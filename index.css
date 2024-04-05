@@ -47,10 +47,34 @@ body, table, input, button {
 
     display: flex;
     align-items: center;
+    gap: 12px;
+
+    border: var(--border);
+    border-radius: 10px;
+
+    padding: 8px 12px;
+
+    font: 400 14px/150% 'Roboto', sans-serif;
+    color: #c4c4cc;
   }
 
   input {
     all: unset;
+  }
+
+  fieldset button{
+    width: fit-content;
+    border: 0;
+    background: #F45656;
+    border-radius: 10px;
+    padding: 7px 20px;
+
+    font: 700 12px/24px  'Roboto', sans-serif;
+    color: #00292E;
+  }
+
+  fieldset button:hover {
+    background: #f34343;
   }
 
   table {
